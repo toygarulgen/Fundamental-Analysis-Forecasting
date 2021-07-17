@@ -199,19 +199,3 @@ ax.grid(True)
 randombarajli = randombarajli * 23213
 randombarajli.to_excel('randombarajli.xlsx')
 
-# x = np.arange(0, len(meanBarajlı))
-# ax = plt.figure().add_subplot(111)
-# ax.plot(totalBarajlı['Barajlı'].iloc[0:12].values, color="gray", label="2016")
-# ax.plot(totalBarajlı['Barajlı'].iloc[12:24].values, color="red", label="2017")
-# ax.plot(totalBarajlı['Barajlı'].iloc[24:36].values, color="yellow", label="2018")
-# ax.plot(totalBarajlı['Barajlı'].iloc[36:48].values, color="black", label="2019")
-# ax.plot(totalBarajlı['Barajlı'].iloc[48:60].values, color="purple", label="2020")
-# ax.plot(totalBarajlı['Barajlı'].iloc[60:65].values, color="orange", label="2021")
-# ax.plot(toplam.values, color="pink", label="Ortalaması")
-# # ax.set_title("TOTAL PRODUCTİON MONTHLY ", fontsize=10)
-# ax.set_xlabel('Months', fontsize=12)
-# ax.set_ylabel('Production', fontsize=12)
-# ax.legend(loc="best", prop={'size': 8})
-# ax.grid(True)
-
-#2018 ile 2020 ortalamsı alınacak.
